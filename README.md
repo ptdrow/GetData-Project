@@ -1,4 +1,7 @@
-**GetData-Project**===============This project consist of one script named **run_analysis.R** that runs code to read and process the data of the 'UCI HAR Dataset' folder and write a file of tidy data showing the mean values of each feature variable subsetted for each combination of subject and activity performed in the experiments.
+**GetData-Project**
+============
+
+This project consist of one script named **run_analysis.R** that runs code to read and process the data of the 'UCI HAR Dataset' folder and write a file of tidy data showing the mean values of each feature variable subsetted for each combination of subject and activity performed in the experiments.
 
 The code executes the function *run_analysis*, wich calls all other functions in the script avoiding saving all the data and temporal variables into the *Global Environment* and prints messages to show at what stage of the processing the run is. At the ends it writes the desired tidy data set into the file 'tidyData.txt'.
 
