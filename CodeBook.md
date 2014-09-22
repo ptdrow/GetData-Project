@@ -18,15 +18,15 @@ Feature variables
 ----------
 The feature variables selected were those from the raw data wich represented the processed mean and standard deviation values for the inertial signals. The labels for the variables were changed from the raw data to show the domain of the signal (time domain or fast fourier transform), the type of velocity, acceleration or jerk measured (linear or angular), the type of statistical meassures (mean or standar deviation), and the direction measured (x, y, z or the magnitude.
 
-**Domain of the signal**
+**Domain of the signal**:
 The labels of the features start with a lower case letter showing the domain of the signal, being **t** for **Time Domain Signal** and **f** for **Fast Fourier Transform (FFT)**
 
-**Physical measure type**
+**Physical measure type**:
 The next characters refer to the type of physical measurement, being **LIN** for **Linear acceleration**, **LIN_Jerk** for **Linear Jerk**, **ANG** for **Angular velocity**, **ANG_Jerk** for **Angular Jerk** and **GRAV** for **Gravity**.
 
-**Statistical measure type**
+**Statistical measure type**:
 The next characters refer to the type of statistical measurement, being **Mean** for the **Mean Measure** and **STD** for **Standard deviation**.
 
-**Statistical measure type**
+**Statistical measure type**:
 The last character shows the direction of the phisical measurement. It relates to the **X**, **Y**, **Z** directions as recorded by the accelerometer and gyroscope of the smartphone. If there is no further character after the statistical measure type, the data shows the **magnitude** of the vector.
 
