@@ -1,4 +1,4 @@
-**Code Book**
+﻿**Code Book**
 =======
 This code book describes the data presented in the file 'tidyData.txt', which is the output of running the ´run_analysis.R' script with the 'UCI HAR Dataset' folder.
 Raw Data
@@ -20,27 +20,43 @@ The feature variables selected were those from the raw data wich represented the
 
 **Domain of the signal**
 The labels of the features start with a lower case letter showing the domain of the signal, being:
+
 | Domain     | Character |
+
 | :-------   | :---:     |
-| Time       | f         | 
+
+| Time       | f         |
+
 | FFT        | t         |
 
 **Physical measure type**
 The next characters refer to the type of physical measurement, as shown in the next table:
+
 | Type                | Characters |
+
 |          :-----     |      :---: |
-| Linear acceleration | LIN        | 
+
+| Linear acceleration | LIN        |
 | Linear jerk         | LIN_Jerk   |
-| Angular velocity    | ANG        | 
+
+| Angular velocity    | ANG        |
+
 | Angular jerk        | ANG_Jerk   |
+
 | Gravity             | GRAV       |
+
 
 **Statistical measure type**
 The next characters refer to the type of statistical measurement, as shown in the next table:
+
 | Type               | Characters |
+
 | :-----             |      :---: |
-| Mean               | Mean       | 
+
+| Mean               | Mean       |
+
 | Standard deviation | STD        |
+
 
 **Statistical measure type**
 The last character shows the direction of the phisical measurement. It relates to the X, Y, Z directions as recorded by the accelerometer and gyroscope of the smartphone. If there is no further character after the statistical measure type, the data shows the magnitude of the vector.
